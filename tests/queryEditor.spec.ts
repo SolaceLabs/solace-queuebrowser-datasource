@@ -39,7 +39,10 @@ test('the payload formats are offered', async ({ panelEditPage, readProvisionedD
 
   await panelEditPage.getQueryEditorRow('A').getByLabel('Payload format').click();
 
+  // Grafana's Combobox gives an option no aria-label, so its accessible name is
+  // the label plus the description ("AutoPretty JSON, …"). Match on the label text.
   for (const format of ['Auto', 'JSON', 'Text', 'Base64', 'Hex']) {
-    await expect(page.getByRole('option', { name: format, exact: true })).toBeVisible();
+    const option = page.getByRole('option').filter({ has: page.getByText(format, { exact: true }) });
+    await expect(option).toBeVisible();
   }
 });
