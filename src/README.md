@@ -87,9 +87,9 @@ broker.
 
 This is a community plugin, supported by its author on a best-effort basis. Bug reports and pull
 requests are welcome, see
-[CONTRIBUTING.md](https://github.com/pascalre/reitermann-solacequeuebrowser-datasource/blob/main/CONTRIBUTING.md).
+[CONTRIBUTING.md](https://github.com/SolaceLabs/solace-queuebrowser-datasource/blob/main/CONTRIBUTING.md).
 Please report problems via
-[GitHub issues](https://github.com/pascalre/reitermann-solacequeuebrowser-datasource/issues) rather
+[GitHub issues](https://github.com/SolaceLabs/solace-queuebrowser-datasource/issues) rather
 than through Solace support: it is not a Solace product.
 
 Licensed under Apache-2.0. Solace and Solace Event Broker are trademarks of Solace Corporation. This

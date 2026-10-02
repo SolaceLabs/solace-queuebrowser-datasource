@@ -23,5 +23,5 @@ All notable changes to this plugin are documented here. The format follows
 - Dashboard variable support for the queue name.
 - Configurable idle, total and connect timeouts, since a queue browse has no end-of-queue event.
 
-[unreleased]: https://github.com/pascalre/reitermann-solacequeuebrowser-datasource/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/pascalre/reitermann-solacequeuebrowser-datasource/releases/tag/v1.0.0
+[unreleased]: https://github.com/SolaceLabs/solace-queuebrowser-datasource/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/SolaceLabs/solace-queuebrowser-datasource/releases/tag/v1.0.0

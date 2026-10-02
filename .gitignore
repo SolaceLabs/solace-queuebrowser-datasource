@@ -34,7 +34,7 @@ dist/
 artifacts/
 work/
 ci/
-reitermann-solacequeuebrowser-datasource/
+solace-queuebrowser-datasource/
 
 # e2e test directories
 /test-results/

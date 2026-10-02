@@ -4,7 +4,7 @@ Bug reports, feature requests and pull requests are welcome.
 
 ## Reporting a bug
 
-Open an [issue](https://github.com/pascalre/reitermann-solacequeuebrowser-datasource/issues) and
+Open an [issue](https://github.com/SolaceLabs/solace-queuebrowser-datasource/issues) and
 include:
 
 - the Grafana version and the plugin version,

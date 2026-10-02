@@ -202,7 +202,7 @@ jobs:
       - name: Docker logs
         if: ${{ always() && steps.run-tests.outcome == 'failure' }}
         run: |
-          docker logs reitermann-solacequeuebrowser-datasource >& grafana-server.log
+          docker logs solace-queuebrowser-datasource >& grafana-server.log
 
       - name: Stop grafana docker
         run: docker compose down
