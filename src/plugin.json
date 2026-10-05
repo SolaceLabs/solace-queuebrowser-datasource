@@ -33,7 +33,7 @@
         "url": "https://github.com/SolaceLabs/solace-queuebrowser-datasource/blob/main/LICENSE"
       }
     ],
-    "screenshots": [],
+    "screenshots": [{ "name": "Panel", "path": "img/screenshot.png" }],
     "version": "%VERSION%",
     "updated": "%TODAY%"
   },
