@@ -1,0 +1,25 @@
+version: 3
+
+project:
+  locator: SolaceLabs_solace-queuebrowser-datasource
+  id: SolaceLabs_solace-queuebrowser-datasource
+  name: solace-queuebrowser-datasource
+  teams: []
+  labels:
+    - javascript
+
+vendoredDependencies:
+  forceRescans: false
+  scanMethod: CLILicenseScan
+  licenseScanPathFilters:
+    exclude:
+      - "./.git"
+      - "./.github"
+
+paths:
+  exclude:
+    - ./.git
+    - ./.github
+
+telemetry:
+  scope: full
