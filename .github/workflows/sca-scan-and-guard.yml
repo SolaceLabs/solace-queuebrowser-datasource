@@ -45,7 +45,7 @@ jobs:
       table_name: solace-cloud-manifest
       item: |
         {
-          "squad": "cto",
+          "squad": "prof-services",
           "repository": "${{ github.event.repository.name }}",
           "dev": {
             "sha": "${{ github.sha }}",
